@@ -30,9 +30,9 @@ export const HacknetNodeConstants: {
   UpgradeRamMult: 1.28,
   UpgradeCoreMult: 1.48,
 
-  MaxLevel: 200,
-  MaxRam: 64,
-  MaxCores: 16,
+  MaxLevel: 300,
+  MaxRam: 128,
+  MaxCores: 32,
 };
 
 export const PurchaseMultipliers: {

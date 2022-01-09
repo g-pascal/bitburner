@@ -327,7 +327,7 @@ export function GameOptionsRoot(props: IProps): React.ReactElement {
                 onChange={handleLogSizeChange}
                 step={20}
                 min={20}
-                max={500}
+                max={10000}
                 valueLabelDisplay="auto"
               />
             </ListItem>
@@ -347,7 +347,7 @@ export function GameOptionsRoot(props: IProps): React.ReactElement {
                 onChange={handlePortSizeChange}
                 step={1}
                 min={20}
-                max={100}
+                max={500}
                 valueLabelDisplay="auto"
               />
             </ListItem>
@@ -367,7 +367,7 @@ export function GameOptionsRoot(props: IProps): React.ReactElement {
                 onChange={handleTerminalSizeChange}
                 step={50}
                 min={50}
-                max={500}
+                max={10000}
                 valueLabelDisplay="auto"
                 marks
               />
